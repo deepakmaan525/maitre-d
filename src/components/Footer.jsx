@@ -4,7 +4,7 @@ import footerimg from '../assets/images/footer-logo.svg'
 
 const Footer = () => {
     return (
-        <div className='footer-bg position-relative'>
+        <div className='footer-bg relative'>
             <div className="container pt-50">
                 <div className='d-flex flex-column items-center justify-center pt-md-60'>
                     <div className="text-center"><img className='pb-15 footer-logo' src={footerimg} alt="fooeter-img" /></div>
@@ -14,10 +14,13 @@ const Footer = () => {
                     <p className='fs-sm ff-work text-semibold  text-white'>Navigation</p>
                     <p className='fs-sm ff-work text-semibold  text-white'>Company</p>
                     <p className='fs-sm ff-work text-semibold  text-white'>Contact</p>
-
                 </div>
             </div>
             <p className='ff-work text-normal fs-s-sm text-gray text-center footer-line py-13'>Copyright 2020 All rights reserved, Greenfox Development Pty Ltd©</p>
+            <div className="footer-ellipse1"></div>
+            <div className="footer-ellipse2"></div>
+            <div className="footer-ellipse3"></div>
+            <div className="footer-ellipse4"></div>
         </div>
     )
 }
